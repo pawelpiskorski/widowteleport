@@ -3,3 +3,5 @@ Release
 *.user
 *.suo
 *.ncb
+WindowTeleport.sdf
+WindowTeleport.VC.opendb
