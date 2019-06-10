@@ -1,4 +1,4 @@
 language: shell
 os: windows
 script:
- - cmd.exe /C '"C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Auxiliary\Build\vcvarsall.bat" amd64 && MSBuild.exe WindowTeleport.sln //m //nologo //verbosity:minimal //p:Configuration=Release //p:Platform=x64'
+ - cmd.exe /C '"C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Auxiliary\Build\vcvarsall.bat" x86 && MSBuild.exe WindowTeleport.sln -nologo -p:Configuration=Release -p:Platform=Win32'
