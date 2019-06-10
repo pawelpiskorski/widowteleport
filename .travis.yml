@@ -1,3 +1,4 @@
 language: cpp
+os: windows
 script:
  - MSBuild.exe WindowTeleport.sln //m //nologo //verbosity:minimal //p:Configuration=Release //p:Platform=x64
